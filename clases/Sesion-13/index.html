@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.js" integrity="sha384-XypntL49z55iwGVUW4qsEu83zKL3XEcz0MjuGOQ9SlaaQ68X/g+k1FcioZi7oQAc" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="c7bf2355-5e7f-4c1c-b46d-c69c17643d77" data-root-id="3648"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="3764">
+          {"d0859d9f-3f1c-4927-9472-b05695e3a750":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"3659"}],"center":[{"id":"3662"},{"id":"3665"}],"height":800,"left":[{"id":"3663"}],"renderers":[{"id":"3670"}],"title":{"id":"3649"},"toolbar":{"id":"3666"},"width":800,"x_range":{"id":"3651"},"x_scale":{"id":"3655"},"y_range":{"id":"3653"},"y_scale":{"id":"3657"}},"id":"3648","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"3660","type":"BasicTicker"},{"attributes":{"formatter":{"id":"3678"},"major_label_policy":{"id":"3679"},"ticker":{"id":"3664"}},"id":"3663","type":"CategoricalAxis"},{"attributes":{},"id":"3679","type":"AllLabels"},{"attributes":{"formatter":{"id":"3675"},"major_label_policy":{"id":"3676"},"ticker":{"id":"3660"}},"id":"3659","type":"LinearAxis"},{"attributes":{},"id":"3681","type":"UnionRenderers"},{"attributes":{},"id":"3678","type":"CategoricalTickFormatter"},{"attributes":{},"id":"3675","type":"BasicTickFormatter"},{"attributes":{"axis":{"id":"3663"},"dimension":1,"ticker":null},"id":"3665","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"orange"},"height":{"value":0.8},"line_alpha":{"value":0.1},"line_color":{"value":"orange"},"right":{"field":"right"},"y":{"field":"y"}},"id":"3669","type":"HBar"},{"attributes":{},"id":"3664","type":"CategoricalTicker"},{"attributes":{},"id":"3682","type":"Selection"},{"attributes":{"axis":{"id":"3659"},"ticker":null},"id":"3662","type":"Grid"},{"attributes":{},"id":"3676","type":"AllLabels"},{"attributes":{"data":{"right":[110,110,93,110,175,105,245,62,95,123,123,180,180,180,205,215,230,66,52,65,97,150,150,245,175,66,91,113,264,175,335,109],"y":["Mazda RX4","Mazda RX4 Wag","Datsun 710","Hornet 4 Drive","Hornet Sportabout","Valiant","Duster 360","Merc 240D","Merc 230","Merc 280","Merc 280C","Merc 450SE","Merc 450SL","Merc 450SLC","Cadillac Fleetwood","Lincoln Continental","Chrysler Imperial","Fiat 128","Honda Civic","Toyota Corolla","Toyota Corona","Dodge Challenger","AMC Javelin","Camaro Z28","Pontiac Firebird","Fiat X1-9","Porsche 914-2","Lotus Europa","Ford Pantera L","Ferrari Dino","Maserati Bora","Volvo 142E"]},"selected":{"id":"3682"},"selection_policy":{"id":"3681"}},"id":"3667","type":"ColumnDataSource"},{"attributes":{"factors":["Mazda RX4","Mazda RX4 Wag","Datsun 710","Hornet 4 Drive","Hornet Sportabout","Valiant","Duster 360","Merc 240D","Merc 230","Merc 280","Merc 280C","Merc 450SE","Merc 450SL","Merc 450SLC","Cadillac Fleetwood","Lincoln Continental","Chrysler Imperial","Fiat 128","Honda Civic","Toyota Corolla","Toyota Corona","Dodge Challenger","AMC Javelin","Camaro Z28","Pontiac Firebird","Fiat X1-9","Porsche 914-2","Lotus Europa","Ford Pantera L","Ferrari Dino","Maserati Bora","Volvo 142E"]},"id":"3653","type":"FactorRange"},{"attributes":{},"id":"3657","type":"CategoricalScale"},{"attributes":{"active_multi":null},"id":"3666","type":"Toolbar"},{"attributes":{"text":"Carros con mayores Caballos de fuerza"},"id":"3649","type":"Title"},{"attributes":{"data_source":{"id":"3667"},"glyph":{"id":"3668"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3669"},"view":{"id":"3671"}},"id":"3670","type":"GlyphRenderer"},{"attributes":{"source":{"id":"3667"}},"id":"3671","type":"CDSView"},{"attributes":{},"id":"3655","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"value":"orange"},"height":{"value":0.8},"line_color":{"value":"orange"},"right":{"field":"right"},"y":{"field":"y"}},"id":"3668","type":"HBar"},{"attributes":{},"id":"3651","type":"DataRange1d"}],"root_ids":["3648"]},"title":"Bokeh Application","version":"2.3.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('3764').textContent;
+                  var render_items = [{"docid":"d0859d9f-3f1c-4927-9472-b05695e3a750","root_ids":["3648"],"roots":{"3648":"c7bf2355-5e7f-4c1c-b46d-c69c17643d77"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
