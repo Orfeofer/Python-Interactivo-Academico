@@ -4,4 +4,6 @@ Curso de Python Interactivo y Acad√©mico dictado por AISIDE S.A.C en coordinaci√
 
 https://www.aiside.pe/
 
+## Comunicado sobre el curso
+
 [![invitacion.jpg](https://i.postimg.cc/4N99kp8B/invitacion.jpg)](https://postimg.cc/tY9TFnGx)
