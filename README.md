@@ -6,4 +6,4 @@ https://www.aiside.pe/
 
 ## Comunicado sobre el curso
 
-https://i.postimg.cc/4N99kp8B/invitacion.jpg
+[![invitacion.jpg](https://i.postimg.cc/4N99kp8B/invitacion.jpg)](https://postimg.cc/tY9TFnGx)
